@@ -2,7 +2,7 @@ html{
     scroll-behavior: auto !important;
 }
 
-
+/* encabezado barra navbar */
 
 .navbar{
     position: fixed;
@@ -14,24 +14,17 @@ html{
     color: white;
 }
 
+/* color letras y fondo de la pagina */
 body{
     color: white;
     background-color: #272222;
 }
 
-#text{
-    border: #272222;
-}
-
+/* quienes somos borde de tarjeta eliminado */
 .card-border{
     border: none;
 }
-.card-header{
-    background-color: darkturquoise;
-}
-.card-footer{
-    background-color: darkturquoise;
-}
+
 .card-body{
     background-color: #272222;
     text-align: left;
@@ -39,12 +32,21 @@ body{
     ;
 }
 
+.card-header{
+    background-color: darkturquoise;
+}
+.card-footer{
+    background-color: darkturquoise;
+}
+
+/* destacados */
 
 .card-body2{
     background-color: darkturquoise;
     text-align: left;
 }
 
+/* formulario */
 .mb-3{
     margin-left: 2rem;
     margin-right: 2rem;
@@ -53,7 +55,7 @@ body{
     background-color: darkturquoise;
     margin-left: 2rem;
 }
-
+/* footer */
 #footer{
     background-color: darkturquoise;
     margin-top: 3rem;
